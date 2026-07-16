@@ -79,7 +79,7 @@ ERP/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/erp-management-system.git
+git clone https://github.com/bharanishree-codes/erp-management-system.git
 cd erp-management-system
 
 # Create and activate a virtual environment
@@ -89,32 +89,16 @@ source venv/bin/activate    # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Configure environment variables
-cp .env.example .env
-# Edit .env with your database credentials and secret keys
-
-# Run database migrations (if using Alembic)
-alembic upgrade head
-
 # Start the development server
 uvicorn main:app --reload
 ```
 
-### Environment Variables
-
-```
-DATABASE_URL=mysql+pymysql://user:password@localhost:3306/erp_db
-JWT_SECRET_KEY=your-jwt-secret
-JWT_ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=60
-```
 
 ## API Documentation
 
 FastAPI provides interactive API docs automatically:
 
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
+- Swagger UI: `https://fastapi.hcaschennai.edu.in/docs`
 
 ## Key Contributions
 
