@@ -79,7 +79,7 @@ ERP/
 
 ```bash
 # Clone the repository
-- git clone [https://github.com/bharanishree-codes/erp-management-system.git](https://github.com/bharanishree-codes/erp-management-system.git)
+- git clone https://github.com/bharanishree-codes/erp-management-system.git
 
 cd erp-management-system
 
